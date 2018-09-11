@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="图书管理系统的设计与实现" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/图书管理系统的设计与实现" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/图书管理系统的设计与实现" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ALL.h" />
+		<Unit filename="Add.h" />
+		<Unit filename="Book.h" />
+		<Unit filename="CheckPrice.h" />
+		<Unit filename="Convert.h" />
+		<Unit filename="CouldBorrow.h" />
+		<Unit filename="Count.h" />
+		<Unit filename="Del.h" />
+		<Unit filename="GetPosition.h" />
+		<Unit filename="IsBorrow.h" />
+		<Unit filename="IsExist.h" />
+		<Unit filename="Login.h" />
+		<Unit filename="Modify.h" />
+		<Unit filename="Search.h" />
+		<Unit filename="ShowInfo.h" />
+		<Unit filename="SubMenu.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="myhead.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
